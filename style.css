@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Syne&display=swap');
+
+/* 
+font-family: 'Abril Fatface', cursive;
+font-family: 'Syne', sans-serif;
+*/
+:root {
+    --background-color: #000000;
+    --main-font-color: #fff;
+    --additional-font-color: #33b058;
+    --secondary-font-color: #606060;
+}
+
+
+html {
+    
+}
+
+body {
+    font-family: 'Abril Fatface', cursive; 
+    background-color: var(--background-color);
+}
+
+a {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+
+.container {
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.header {
+    max-height: 80px;
+    padding: 40px 0px;
+}
+
+.nav {
+    display: flex;
+    gap: 200px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav .nav-list {
+    color: var(--secondary-font-color);
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    font-size: 20px;
+}
+
+.nav-list li a {
+    color: var(--secondary-font-color);
+    transition-duration: 0.3s;
+}
+.nav-list li a:hover {
+    color: var(--main-font-color);
+}
+
+.nav-logo {
+    font-size: 32px;
+    color: var(--main-font-color)
+}
+
+.nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.contact {
+    color: var(--main-font-color);
+}
+
+.btn {
+    padding: 10px 30px;
+    transition-duration: 0.4s;
+    font-size: 20px;
+    background-color: var(--background-color);
+    color: var(--additional-font-color);
+    border-radius: 4px;
+    border: 1px solid #fff;
+}
+  
+.btn:hover {
+    filter: opacity(0.7);
+    cursor: pointer;
+}
+
+.personal-photo {
+    width: 350px;
+    border-radius: 4px;
+}
+
+.hero {
+    margin-top: 30px;
+    color: var(--main-font-color);
+}
+
+.hero .wrap {
+    display: flex;
+    gap: 40px;
+}
+
+.right-info {
+    margin-left: 20px;
+}
+
+.right-info h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+.right-info h2 {
+    font-size: 28px;
+    color: var(--secondary-font-color);
+    margin: 10px 0;
+}
+
+.short-info {
+    font-family: 'Exo 2', sans-serif; 
+    color: var(--main-font-color);
+}
+
+.short-info span {
+    color: var(--additional-font-color);
+}
+
+.links li a {
+    color: var(--main-font-color);
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Отступ между картинкой и текстом */
+    transition-duration: 0.1s;
+}
+
+.links img {
+    width: 25px;
+    filter: brightness(70%);
+    transition-duration: 0.1s;
+}
+.links img:hover {
+    width: 25px;
+    filter: brightness(95%);
+}
+.links a:hover {
+    color: #606060;
+}
+
+.links ul li {
+    padding: 5px  0px;
+}
+
+
+
+
+
+
+
+
