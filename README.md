@@ -1,3 +1,3 @@
 # rsschool-cv
-https://sdeaiko.github.io/rsschool-cv/cv
-https://sdeaiko.github.io/rsschool-cv/
+- [CV](https://sdeaiko.github.io/rsschool-cv/cv)
+- [Резюме](https://sdeaiko.github.io/rsschool-cv/)
