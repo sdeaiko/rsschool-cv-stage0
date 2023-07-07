@@ -9,6 +9,7 @@
  */
 
  html {
+  scroll-behavior: smooth;
   line-height: 1.15; /* 1 */
   -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -350,6 +351,6 @@ template {
 
 ul {
   list-style: none;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
