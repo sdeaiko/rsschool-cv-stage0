@@ -149,7 +149,7 @@
                 yp = (int)(height / 2 + K1 * ooz * y);
               
                 idx = xp + yp * width;
-                if (idx >= 0 && idx &lt;&nbsp;width * height) {
+                if (idx >= 0 && idx &lt; width * height) {
                   if (ooz > zBuffer[idx]) {
                     zBuffer[idx] = ooz;
                     buffer[idx] = ch;
